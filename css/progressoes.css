@@ -1,0 +1,48 @@
+body {
+    background: linear-gradient(to right, #41295a, #2f0743);
+
+}
+
+h1 {
+    color: white;
+    text-align: center;
+    font-family: 'Iceland', cursive;
+}
+
+h2 {
+    text-align: center;
+    color: black;
+    font-family: 'Slackey', cursive;
+    background: linear-gradient(to right, #f12711, #f5af19);
+}
+
+img {
+    text-align: center;
+}
+
+#p {
+    background-image: url(../imagens/progree.jfif);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+
+p {
+    color: white;
+    font-size: 20px;
+    text-align: center;
+}
+
+#fim {
+    color: chartreuse;
+    text-align: left;
+    background-image: url(../imagens/coragem.jfif);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
+h3 {
+    text-align: center;
+    font-size: 25px;
+    color: chartreuse;
+}

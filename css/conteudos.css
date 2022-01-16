@@ -1,0 +1,56 @@
+body {
+    background: linear-gradient(to right, #093028, #237a57);
+
+}
+
+h1 {
+    background: linear-gradient(to right, #eb5757, #000000);
+    color: whitesmoke;
+    text-align: center;
+    font-family: 'Inconsolata', monospace;
+}
+
+#img {
+    text-align: center;
+    vertical-align: middle;
+
+}
+
+#img:hover {
+    border-bottom-style: double;
+    border-top-style: double;
+    border-right-style: double;
+    border-left-style: double;
+    border-color: yellow;
+}
+
+#imgi {
+    text-align: center;
+    vertical-align: middle;
+}
+
+#imgi:hover {
+    border-bottom-style: double;
+    border-top-style: double;
+    border-right-style: double;
+    border-left-style: double;
+    border-color: yellow;
+}
+
+#imgii {
+    text-align: center;
+    vertical-align: middle;
+}
+
+#imgii:hover {
+    border-bottom-style: double;
+    border-top-style: double;
+    border-right-style: double;
+    border-left-style: double;
+    border-color: yellow;
+}
+
+p {
+    font-size: 20px;
+
+}

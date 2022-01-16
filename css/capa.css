@@ -1,0 +1,44 @@
+body {
+    background: linear-gradient(to right, #e6dada, #274046);
+
+}
+
+h1 {
+    background: linear-gradient(to left, #4b6cb7, #182848);
+    text-align: center;
+    font-style: italic;
+    font-family: 'Slackey', cursive;
+    color: cornflowerblue;
+}
+
+h2 {
+    text-align: center;
+    vertical-align: middle;
+    font-weight: bold;
+    color: blueviolet;
+}
+
+#capa {
+    background-image: url(../imagens/capa.jfif);
+    background-repeat: no-repeat;
+    background-position: right, bottom;
+    font-family: 'Reggae One', cursive;
+    border-bottom-style: double;
+    border-left-style: solid;
+    border-right-style: solid;
+    border-top-style: double;
+    border-color: dimgray;
+}
+
+#jornada {
+    text-align: left;
+    font-size: 20px;
+    color: dodgerblue;
+    background-image: url(../imagens/sashimi.jfif);
+    font-family: 'Reggae One', cursive;
+    text-indent: 15px;
+}
+
+#link {
+    text-align: center;
+}

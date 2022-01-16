@@ -1,0 +1,45 @@
+body {
+    background: linear-gradient(to right, #00d2ff, #3a7bd5);
+
+}
+
+h1 {
+    text-align: center;
+    color: white;
+    font-family: 'Bellota', cursive;
+}
+
+h2 {
+    color: navajowhite;
+    font-family: 'Reggae One', cursive;
+}
+
+#int {
+    font-family: 'Island Moments', cursive;
+    font-size: 35px;
+    text-align: center;
+    font-weight: bold;
+}
+
+#funcao {
+    font-size: 15px;
+    text-align: center;
+    border-bottom-style: double;
+    border-top-style: double;
+    border-right-style: double;
+    border-left-style: double;
+    border-color: rebeccapurple;
+}
+
+#final {
+    font-family: 'Iceland', cursive;
+    font-size: 30px;
+    text-align: center;
+    background: linear-gradient(to right, #0f2027, #203a43, #2c5364);
+    color: white;
+}
+
+#img {
+    text-align: center;
+
+}

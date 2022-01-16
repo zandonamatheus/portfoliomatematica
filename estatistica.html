@@ -1,0 +1,575 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <link type='text/css' rel='stylesheet' href="css/estatistica.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bellota:wght@300&family=Iceland&family=Inconsolata:wght@200&family=Island+Moments&family=Reggae+One&family=Slackey&display=swap" rel="stylesheet">
+    <title> Portfólio de matemática
+    </title>
+</head>
+
+<body>
+    <h1> ESTATÍSTICA BÁSICA </h1>
+    <hr>
+    <div id="sim">
+        <p> A Estatística é um conjunto de técnicas e métodos de pesquisa
+            <br>
+            que apresenta processos próprios para
+            coletar, apresentar, analisar e interpretar conjuntos de dados
+            <br>
+            a fim de possibilitar a tomada de decisões.
+            <br>
+            A matemática de estatística básica trabalha com tabelas, gráficos e
+            medidas
+            <br>
+            como média, mediana, moda, variância e desvio padrão.
+        </p>
+    </div>
+    <br>
+    <h2> Tabela de distribuição de frequência </h2>
+    <br>
+    <p> EXEMPLO: Fingimos que uma pesquisa com 20 pessoas foi feita, agora para sabermos quantas classes teremos, precisamos fazer a raiz quadrada de 20 que é igual à aproximadamente 4,5 → como não podemos usar números com casas decimais devemos arredondar, aqui arredondarei para 5. </p>
+    <br>
+    <p> Agora fazemos a amplitude, para faze-la precisamos diminuir o maior do menor número. Suponhamos que o menor número é 2 e o maior é 18, o resultado é 16 e esse número é dividido pelo número de classes (5), que fica igual à aproximadamente 3,2 e se arredonda para 3. </p>
+    <br>
+    <p> Agora para estabelecermos as classes devemos pegar o menor número e ir somando a amplitude até que se chegue ao número de pessoas. </p>
+    <table>
+
+        <thead>
+            <tr>
+                <th>Classes </th>
+                <th> Frequências </th>
+                <th> </th>
+            </tr>
+        </thead>
+
+        <tbody>
+            <tr>
+                <td>2|-- 5</td>
+                <td></td>
+                <td></td>
+            </tr>
+
+            <tr>
+                <td> 5|-- 8 </td>
+                <td> </td>
+                <td> </td>
+            </tr>
+
+            <tr>
+                <td> 8|-- 11 </td>
+                <td> </td>
+                <td> </td>
+            </tr>
+
+            <tr>
+                <td> 11|-- 14 </td>
+                <td> </td>
+                <td> </td>
+            </tr>
+
+            <tr>
+                <td> 14 |-- 17 </td>
+                <td> </td>
+                <td> </td>
+            </tr>
+
+            <tr>
+                <td> 17|-- 20 </td>
+                <td> </td>
+                <td> </td>
+            </tr>
+
+        </tbody>
+
+    </table>
+    <p> Agora para fazermos a frequência precisamos de cada um dos números de cada pessoa dessa pesquisa. Vamos supor que os valores são:
+    </p>
+    <br>
+    <p> 2, 3, 3, 4, 5, 7, 8, 8, 8, 10, 10, 10, 12, 13, 15, 16, 16, 17, 18, 18. </p>
+    <p> Com esses resultados encaixamos em seus respectivos lugares na tabela. </p>
+    <br>
+
+    <table>
+
+        <thead>
+            <tr>
+                <th>Classes </th>
+                <th> Frequências </th>
+                <th> </th>
+            </tr>
+        </thead>
+
+        <tbody>
+            <tr>
+                <td>2|-- 5</td>
+                <td> 4 </td>
+                <td></td>
+            </tr>
+
+            <tr>
+                <td> 5|-- 8 </td>
+                <td> 2 </td>
+                <td> </td>
+            </tr>
+
+            <tr>
+                <td> 8|-- 11 </td>
+                <td> 6 </td>
+                <td> </td>
+            </tr>
+
+            <tr>
+                <td> 11|-- 14 </td>
+                <td> 2 </td>
+                <td> </td>
+            </tr>
+
+            <tr>
+                <td> 14 |-- 17 </td>
+                <td> 3 </td>
+                <td> </td>
+            </tr>
+
+            <tr>
+                <td> 17|-- 20 </td>
+                <td> 3 </td>
+                <td> </td>
+            </tr>
+
+        </tbody>
+
+    </table>
+
+    <p> O próximo passo é fazer o Ponto Médio de cada frequência </p>
+
+    <table>
+
+        <thead>
+            <tr>
+                <th>Classes </th>
+                <th> Frequências </th>
+                <th> PM </th>
+            </tr>
+        </thead>
+
+        <tbody>
+            <tr>
+                <td>2|-- 5</td>
+                <td> 4 </td>
+                <td> 4 </td>
+            </tr>
+
+            <tr>
+                <td> 5|-- 8 </td>
+                <td> 2 </td>
+                <td> 7 </td>
+            </tr>
+
+            <tr>
+                <td> 8|-- 11 </td>
+                <td> 6 </td>
+                <td> 10 </td>
+            </tr>
+
+            <tr>
+                <td> 11|-- 14 </td>
+                <td> 2 </td>
+                <td> 13 </td>
+            </tr>
+
+            <tr>
+                <td> 14 |-- 17 </td>
+                <td> 3 </td>
+                <td> 16 </td>
+            </tr>
+
+            <tr>
+                <td> 17|-- 20 </td>
+                <td> 3 </td>
+                <td> 19 </td>
+            </tr>
+
+        </tbody>
+
+    </table>
+    <p> Agora devemos fazer a média do número de pessoas dividido pelo número de classes. </p>
+
+    <table>
+
+        <thead>
+            <tr>
+                <th>Classes </th>
+                <th> Frequências </th>
+                <th> PM </th>
+            </tr>
+        </thead>
+
+        <tbody>
+            <tr>
+                <td>2|-- 5</td>
+                <td> 4 </td>
+                <td> 4 </td>
+            </tr>
+
+            <tr>
+                <td> 5|-- 8 </td>
+                <td> 2 </td>
+                <td> 7 </td>
+            </tr>
+
+            <tr>
+                <td> 8|-- 11 </td>
+                <td> 6 </td>
+                <td> 10 </td>
+            </tr>
+
+            <tr>
+                <td> 11|-- 14 </td>
+                <td> 2 </td>
+                <td> 13 </td>
+            </tr>
+
+            <tr>
+                <td> 14 |-- 17 </td>
+                <td> 3 </td>
+                <td> 16 </td>
+            </tr>
+
+            <tr>
+                <td> 17|-- 20 </td>
+                <td> 3 </td>
+                <td> 19 </td>
+            </tr>
+
+            <tr>
+                <td> . </td>
+                <td> 20/6= 3 </td>
+                <td> . </td>
+
+            </tr>
+
+        </tbody>
+
+    </table>
+    <p> Agora fazemos o desvio padrão pegando a média do número de pessoas e sibtraindo o ponto médio </p>
+
+    <table>
+
+        <thead>
+            <tr>
+                <th>Classes </th>
+                <th> Frequências </th>
+                <th> PM </th>
+                <th> Desvio Padrão </th>
+            </tr>
+        </thead>
+
+        <tbody>
+            <tr>
+                <td>2|-- 5</td>
+                <td> 4 </td>
+                <td> 4 </td>
+                <td> 4-3= 1 </td>
+            </tr>
+
+            <tr>
+                <td> 5|-- 8 </td>
+                <td> 2 </td>
+                <td> 7 </td>
+                <td> 7-3= 4 </td>
+            </tr>
+
+            <tr>
+                <td> 8|-- 11 </td>
+                <td> 6 </td>
+                <td> 10 </td>
+                <td> 10-3= 7 </td>
+            </tr>
+
+            <tr>
+                <td> 11|-- 14 </td>
+                <td> 2 </td>
+                <td> 13 </td>
+                <td> 13-3= 10 </td>
+            </tr>
+
+            <tr>
+                <td> 14 |-- 17 </td>
+                <td> 3 </td>
+                <td> 16 </td>
+                <td> 16-3= 13 </td>
+            </tr>
+
+            <tr>
+                <td> 17|-- 20 </td>
+                <td> 3 </td>
+                <td> 19 </td>
+                <td> 19-3= 16 </td>
+            </tr>
+
+            <tr>
+                <td> . </td>
+                <td> 20/6= 3 </td>
+                <td> . </td>
+
+            </tr>
+
+        </tbody>
+
+    </table>
+
+    <p> Agora devemos pegar o número do Desvio Padrão e transforma-los ao quadrado. </p>
+
+    <table>
+
+        <thead>
+            <tr>
+                <th>Classes </th>
+                <th> Frequências </th>
+                <th> PM </th>
+                <th> Desvio Padrão </th>
+                <th> Desv. Pad. ao quadrado </th>
+            </tr>
+        </thead>
+
+        <tbody>
+            <tr>
+                <td>2|-- 5</td>
+                <td> 4 </td>
+                <td> 4 </td>
+                <td> 4-3= 1 </td>
+                <td> 1 </td>
+            </tr>
+
+            <tr>
+                <td> 5|-- 8 </td>
+                <td> 2 </td>
+                <td> 7 </td>
+                <td> 7-3= 4 </td>
+                <td> 16 </td>
+            </tr>
+
+            <tr>
+                <td> 8|-- 11 </td>
+                <td> 6 </td>
+                <td> 10 </td>
+                <td> 10-3= 7 </td>
+                <td> 49 </td>
+            </tr>
+
+            <tr>
+                <td> 11|-- 14 </td>
+                <td> 2 </td>
+                <td> 13 </td>
+                <td> 13-3= 10 </td>
+                <td> 100 </td>
+            </tr>
+
+            <tr>
+                <td> 14 |-- 17 </td>
+                <td> 3 </td>
+                <td> 16 </td>
+                <td> 16-3= 13 </td>
+                <td> 169 </td>
+            </tr>
+
+            <tr>
+                <td> 17|-- 20 </td>
+                <td> 3 </td>
+                <td> 19 </td>
+                <td> 19-3= 16 </td>
+                <td> 256 </td>
+            </tr>
+
+            <tr>
+                <td> . </td>
+                <td> 20/6= 3 </td>
+                <td> . </td>
+
+            </tr>
+
+        </tbody>
+
+    </table>
+    <p> Então, pegamos o Desvio padrão ao quadrado e multiplicamos pela frequência. </p>
+
+    <table>
+
+        <thead>
+            <tr>
+                <th>Classes </th>
+                <th> Frequências </th>
+                <th> PM </th>
+                <th> Desvio Padrão </th>
+                <th> Desv. Pad. ao quadrado </th>
+                <th> DP².f </th>
+            </tr>
+        </thead>
+
+        <tbody>
+            <tr>
+                <td>2|-- 5</td>
+                <td> 4 </td>
+                <td> 4 </td>
+                <td> 4-3= 1 </td>
+                <td> 1 </td>
+                <td> 1.4= 4 </td>
+            </tr>
+
+            <tr>
+                <td> 5|-- 8 </td>
+                <td> 2 </td>
+                <td> 7 </td>
+                <td> 7-3= 4 </td>
+                <td> 16 </td>
+                <td> 16.2= 32 </td>
+            </tr>
+
+            <tr>
+                <td> 8|-- 11 </td>
+                <td> 6 </td>
+                <td> 10 </td>
+                <td> 10-3= 7 </td>
+                <td> 49 </td>
+                <td> 49.6= 294 </td>
+            </tr>
+
+            <tr>
+                <td> 11|-- 14 </td>
+                <td> 2 </td>
+                <td> 13 </td>
+                <td> 13-3= 10 </td>
+                <td> 100 </td>
+                <td> 100.2= 200 </td>
+            </tr>
+
+            <tr>
+                <td> 14 |-- 17 </td>
+                <td> 3 </td>
+                <td> 16 </td>
+                <td> 16-3= 13 </td>
+                <td> 169 </td>
+                <td> 169.3= 507 </td>
+            </tr>
+
+            <tr>
+                <td> 17|-- 20 </td>
+                <td> 3 </td>
+                <td> 19 </td>
+                <td> 19-3= 16 </td>
+                <td> 256 </td>
+                <td> 256.3= 768 </td>
+            </tr>
+
+            <tr>
+                <td> . </td>
+                <td> 20/6= 3 </td>
+                <td> . </td>
+
+            </tr>
+
+        </tbody>
+
+    </table>
+
+    <p> E para descobrirmos a variância basta somar tudo. </p>
+
+    <table>
+
+        <thead>
+            <tr>
+                <th>Classes </th>
+                <th> Frequências </th>
+                <th> PM </th>
+                <th> Desvio Padrão </th>
+                <th> Desv. Pad. ao quadrado </th>
+                <th> DP².f </th>
+            </tr>
+        </thead>
+
+        <tbody>
+            <tr>
+                <td>2|-- 5</td>
+                <td> 4 </td>
+                <td> 4 </td>
+                <td> 4-3= 1 </td>
+                <td> 1 </td>
+                <td> 1.4= 4 </td>
+            </tr>
+
+            <tr>
+                <td> 5|-- 8 </td>
+                <td> 2 </td>
+                <td> 7 </td>
+                <td> 7-3= 4 </td>
+                <td> 16 </td>
+                <td> 16.2= 32 </td>
+            </tr>
+
+            <tr>
+                <td> 8|-- 11 </td>
+                <td> 6 </td>
+                <td> 10 </td>
+                <td> 10-3= 7 </td>
+                <td> 49 </td>
+                <td> 49.6= 294 </td>
+            </tr>
+
+            <tr>
+                <td> 11|-- 14 </td>
+                <td> 2 </td>
+                <td> 13 </td>
+                <td> 13-3= 10 </td>
+                <td> 100 </td>
+                <td> 100.2= 200 </td>
+            </tr>
+
+            <tr>
+                <td> 14 |-- 17 </td>
+                <td> 3 </td>
+                <td> 16 </td>
+                <td> 16-3= 13 </td>
+                <td> 169 </td>
+                <td> 169.3= 507 </td>
+            </tr>
+
+            <tr>
+                <td> 17|-- 20 </td>
+                <td> 3 </td>
+                <td> 19 </td>
+                <td> 19-3= 16 </td>
+                <td> 256 </td>
+                <td> 256.3= 768 </td>
+            </tr>
+
+            <tr>
+                <td> . </td>
+                <td> 20/6= 3 </td>
+                <td> . </td>
+                <td> . </td>
+                <td> Variância → </td>
+                <td> ∑= 1805 </td>
+
+            </tr>
+
+        </tbody>
+
+    </table>
+    <br>
+
+    <h2> Conclusões </h2>
+    <div id="final">
+        <p> Esse conteúdo foi um tanto quanto complicado apenas lendo o material, mas a profe me deu uma baita ajuda e agradeço muito por isso, assim eu consegui entender o conteúdo e até me diverti fazendo as planílhas no exel. No final de tudo percebi que esse conteúdo é bem fácil e espero que continue assim nos próximos anos. </p>
+    </div>
+    <br>
+    <p>
+        <li><a href="index.html"> Voltar ao início </a></li>
+        <br>
+        <li> <a href="conteudos.html"> Voltar a selção de conteúdos </a> </li>
+    </p>
+
+</body></html>
